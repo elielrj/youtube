@@ -27,7 +27,7 @@ class _InicioState extends State<Inicio> {
         switch (snapshot.connectionState) {
           case ConnectionState.none:
           case ConnectionState.waiting:
-            return Center(
+            return const Center(
               child: CircularProgressIndicator(),
             );
             break;
